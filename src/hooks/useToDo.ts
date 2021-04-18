@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { fetchToDoItems, checkItem, uncheckItem } from '../redux/actions'
 import { ReduxState } from '../types'
 
+// add new to do
+
 const useToDo = () => {
   const dispatch = useDispatch()
 
